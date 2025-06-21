@@ -4,7 +4,7 @@ This project demonstrates the use of Infrastructure as Code (IaC) principles by 
 to Amazon Web Services (AWS) using Terraform. The infrastructure is fully automated and includes an S3 bucket 
 for hosting static files and a CloudFront distribution for global content delivery
 
-##What This Project Does
+## What This Project Does
 - Creates an S3 Bucket to host a static website (HTML files).
 - Configures a CloudFront Distribution to serve the website globally
 - Sets appropriate bucket policies to allow CloudFront access to the S3 bucket (Origin Access Identity)
